@@ -1,3 +1,34 @@
+# Projenin Amacı 
+Ekranda görünen formu kullanarak kurs adını içeriği ve fiyat bilgisini ekleme işleminden sonra formun altındaki kurlarım listesinde görünmesini sağlamak.
+
+# Projenin Oluşturulması
+İlk olarak projeyi oluşturmak gerekiyor. Projeyi oluşturmak için aşağıdaki kod satırını kullanıyoruz.
+### npx create-react-app projeadi
+### npx create-react-app kurs
+
+# Projede Redux Kurulumu
+Kendi database imizi kullanacağımız için proje klasörü içinde api klasörü oluşturuyoruz. Api klasörü içinde db.json dosyası oluşturup içine datalari giriyoruz.
+### npx install @reduxjs/toolkit
+### npx install @react/redux
+
+# Projede CSS İşlemleri İçin Bulma Kurulumu
+### npx install bulma
+
+# Projede Kurs Listesine Birden Fazla Kurs Ekleme
+Reactjs tool paketi içindeki slice'ı kullanarak birden fazla kurs eklenmesini sağlıyoruz.
+
+# Projede Database'e Bağlanma
+Database'e bağlanmak içi Json Server kullanıyoruz. Json Server'ı proje klasörünün içine entegre olacak şekilde kuruyoruz.
+### npm install -g json-server
+
+# Database'e Bağlanmak İçin Json Server'ın Çalıştırılması.
+### json-server --watch dosyayolu/databaseadi
+### json-server --watch api/db.json
+
+# Map Method Kullanımı 
+Map method kullanılarak component içine dataları id bilgilerini üzerinden yazdırıyoruz
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
