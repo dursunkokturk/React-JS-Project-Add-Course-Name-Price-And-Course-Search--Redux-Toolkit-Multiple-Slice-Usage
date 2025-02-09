@@ -1,3 +1,33 @@
+# Purpose Of The Project 
+Using the form that appears on the screen, after adding the course name, content and price information, make it appear in the list of my courses below the form. 
+
+# Creating the Project
+First we need to create the project. We use the following line of code to create the project.
+### npx create-react-app projectadi
+### npx create-react-app course
+
+# Redux Setup in Project
+Since we will use our own database, we create an api folder in the project folder. We create a db.json file in the api folder and enter the data into it.
+### npx install @reduxjs/toolkit
+### npx install @react/redux
+
+# Find Setup for CSS Operations in Project
+### finding npx install
+
+# Adding Multiple Courses to the Course List in a Project
+Using the slice in the Reactjs tool package, we can add more than one course.
+
+# Connecting to Database in Project
+We use Json Server to connect to the database. We install Json Server integrated into the project folder.
+### npm install -g json-server
+
+# Running Json Server to Connect to Database.
+### json-server --watch filename/databaseadi
+### json-server --watch api/db.json
+
+# Map Method Usage 
+Using the map method, we print the data into the component via id information
+
 # Projenin Amacı 
 Ekranda görünen formu kullanarak kurs adını içeriği ve fiyat bilgisini ekleme işleminden sonra formun altındaki kurlarım listesinde görünmesini sağlamak.
 
